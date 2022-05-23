@@ -23,6 +23,15 @@ h1 {
     background-color: rgba(0,0,0,.4);
 }
 
+nav {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: white;
+    font-size: 2rem;
+}
+
 @media (max-width: 768px) {
     .item-1 {
         min-height: 100vh;

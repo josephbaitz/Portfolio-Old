@@ -13,12 +13,24 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    <div class="main">
-        <div class="portfolio">
             <div class="item-1" style="background-image: url('./images/felix-wostmann-RIHKx32ACME-unsplash.jpg');">
                 <div class="color-overlay d-flex justify-content-center align-items-center">
                     <div class="singleCol container text-center">
+                        <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                                <ul class="navbar-nav text-center">
+                                    <li>
+                                        <a href="#" class="nav-link">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-link">About Me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                         <h1>Joseph Baitz's Portfolio</h1>
                         <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MmB9b5njVbA" allowfullscreen></iframe></div>
                     </div>
@@ -29,7 +41,6 @@
             </div>
         </div>
     </div>
-
     <!-- Bootstrap js -->
     <script src="./js/bootstrap.min.js"></script>
 </body>
