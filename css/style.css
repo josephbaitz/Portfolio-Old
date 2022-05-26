@@ -45,8 +45,10 @@ p {
 
 a {
     color: white;
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
